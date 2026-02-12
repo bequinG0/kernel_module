@@ -17,7 +17,7 @@ static int __init hello_init(void)
 
 static void __exit hello_exit(void)
 {
-    printk(KERN_INFO, "Goodbye");
+    printk(KERN_INFO "Goodbye\n");
 }
 
 module_init(hello_init);

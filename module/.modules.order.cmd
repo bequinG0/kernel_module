@@ -1,1 +1,1 @@
-savedcmd_modules.order := {   echo module.o; :; } > modules.order
+savedcmd_modules.order := {   echo mytest.o; :; } > modules.order
